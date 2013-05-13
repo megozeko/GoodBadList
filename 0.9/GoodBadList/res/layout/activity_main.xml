@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btnNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/taskadd"
+        android:text="New Deed" />
+
+    <ImageButton
+        android:id="@+id/btnAdPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/add"
+        android:text="Add Child" />
+
+    <ImageButton
+        android:id="@+id/btnAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/tasklisticon"
+        android:text="All Deeds" />
+
+</LinearLayout>

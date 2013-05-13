@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="7bd44804-d7d7-40b4-afc9-8b5110ea82ac">
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:d:/goodbadlist.db</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://D:/android/sqlite-jdbc-3.7.2.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="" />
+  </data-source>
+</component>

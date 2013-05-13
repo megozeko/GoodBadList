@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+	<EditText
+
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tvDesc" android:minLines="5" android:textSize="14dp" android:hint="describtion"/>
+	<RadioGroup
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/Rg">
+		<RadioButton
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Good"
+				android:id="@+id/rbtnGood" android:textColor="#21ffa7"/>
+		<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Bad"
+				android:id="@+id/rbtnBad" android:textColor="#ff3a52"/>
+	</RadioGroup>
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="save"
+			android:id="@+id/btnSave" android:textSize="14dp"/>
+
+</LinearLayout>
